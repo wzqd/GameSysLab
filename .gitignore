@@ -1,0 +1,80 @@
+# Unity generated data: current project
+/SysLab/[Ll]ibrary/
+/SysLab/[Tt]emp/
+/SysLab/[Oo]bj/
+/SysLab/[Ll]ogs/
+/SysLab/[Uu]ser[Ss]ettings/
+/SysLab/[Bb]uild/
+/SysLab/[Bb]uilds/
+/SysLab/[Mm]emoryCaptures/
+/SysLab/[Rr]ecordings/
+/SysLab/[Tt]est[Rr]esults/
+/SysLab/[Aa]rtifacts/
+/SysLab/Assets/AssetStoreTools*
+
+# Possible future Unity projects
+/UnityProjects/*/[Ll]ibrary/
+/UnityProjects/*/[Tt]emp/
+/UnityProjects/*/[Oo]bj/
+/UnityProjects/*/[Ll]ogs/
+/UnityProjects/*/[Uu]ser[Ss]ettings/
+/UnityProjects/*/[Bb]uild/
+/UnityProjects/*/[Bb]uilds/
+/UnityProjects/*/[Mm]emoryCaptures/
+/UnityProjects/*/[Rr]ecordings/
+/UnityProjects/*/[Tt]est[Rr]esults/
+/Builds/
+/TestResults/
+/Artifacts/
+
+# IDE and generated projects
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.opendb
+*.VC.db
+
+# Local note and agent configuration
+.obsidian/
+.claudian/
+/AGENTS.md
+/.agents/
+/.codex/
+
+# Local evidence, authoring assets and runtime data
+/References/
+/SourceAssets/
+/LocalAssets/
+/LocalData/
+/SysLab/LocalData/
+
+# Credentials and machine-generated files
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.key
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.bak
+~$*
+
+# Keep Assets + .meta, Packages, ProjectSettings, Notes, Tools and TestData.
+
+# Local project planning documents
+/TASKS.md
+/TASK.md
+/task.md
+/GameSystemsLab_CODEX_GUIDE_CN.md
