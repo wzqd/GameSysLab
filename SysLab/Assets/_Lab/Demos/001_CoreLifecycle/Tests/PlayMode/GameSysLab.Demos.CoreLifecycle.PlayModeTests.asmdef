@@ -1,0 +1,6 @@
+{
+  "name": "GameSysLab.Demos.CoreLifecycle.PlayModeTests",
+  "references": ["GameSysLab.Core.Events", "GameSysLab.Core.Events.Unity", "GameSysLab.Demos.CoreLifecycle"],
+  "optionalUnityReferences": ["TestAssemblies"],
+  "autoReferenced": false
+}

@@ -1,0 +1,13 @@
+{
+  "name": "GameSysLab.Modules.Timer.PlayModeTests",
+  "references": [
+    "GameSysLab.Modules.Timer",
+    "GameSysLab.Modules.Timer.Unity",
+    "GameSysLab.Demos.Timer"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "noEngineReferences": false,
+  "autoReferenced": false
+}

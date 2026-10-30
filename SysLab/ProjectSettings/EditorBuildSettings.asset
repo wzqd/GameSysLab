@@ -8,5 +8,20 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/_Lab/Demos/001_CoreLifecycle/Scenes/Bootstrap.unity
+    guid: 8c9f8bd52d59eba4287c4aab851680ca
+  - enabled: 1
+    path: Assets/_Lab/Demos/001_CoreLifecycle/Scenes/ContentA.unity
+    guid: 47ba69fe24c82c749b2d5ff37f2f5560
+  - enabled: 1
+    path: Assets/_Lab/Demos/001_CoreLifecycle/Scenes/ContentB.unity
+    guid: 9358171798fbc484fac8befb0cdbb0a2
+  - enabled: 1
+    path: Assets/_Lab/Demos/001_CoreLifecycle/CoreLifecycle.unity
+    guid: 2ed1075a283c69241abcdb9b55497b4e
+  - enabled: 1
+    path: Assets/_Lab/Demos/002_Timer/Timer.unity
+    guid: 7dd363bd3907ea949a1815822855454a
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

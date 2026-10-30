@@ -1,0 +1,8 @@
+{
+    "name": "GameSysLab.Core.Events.Tests",
+    "rootNamespace": "GameSysLab.Core.Events.Tests",
+    "references": ["GameSysLab.Core.Events"],
+    "includePlatforms": ["Editor"],
+    "optionalUnityReferences": ["TestAssemblies"],
+    "autoReferenced": false
+}

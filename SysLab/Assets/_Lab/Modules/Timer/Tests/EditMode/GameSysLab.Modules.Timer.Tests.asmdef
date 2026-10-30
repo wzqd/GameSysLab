@@ -1,0 +1,15 @@
+{
+  "references": [
+    "GameSysLab.Modules.Timer",
+    "GameSysLab.Core.Lifecycle"
+  ],
+  "noEngineReferences": false,
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "name": "GameSysLab.Modules.Timer.Tests",
+  "includePlatforms": [
+    "Editor"
+  ],
+  "autoReferenced": false
+}

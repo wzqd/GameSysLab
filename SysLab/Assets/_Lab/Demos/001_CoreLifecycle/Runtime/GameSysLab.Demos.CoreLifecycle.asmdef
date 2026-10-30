@@ -1,0 +1,4 @@
+{
+  "name": "GameSysLab.Demos.CoreLifecycle",
+  "references": ["GameSysLab.Core.Events", "GameSysLab.Core.Events.Unity", "GameSysLab.Core.Lifecycle"]
+}

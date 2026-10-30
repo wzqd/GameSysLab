@@ -1,0 +1,5 @@
+{
+    "name": "GameSysLab.Core.Events",
+    "rootNamespace": "GameSysLab.Core.Events",
+    "noEngineReferences": true
+}

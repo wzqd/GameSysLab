@@ -1,0 +1,9 @@
+{
+  "name": "GameSysLab.Demos.Timer",
+  "references": [
+    "GameSysLab.Modules.Timer",
+    "GameSysLab.Modules.Timer.Unity",
+    "GameSysLab.Core.Lifecycle"
+  ],
+  "noEngineReferences": false
+}
