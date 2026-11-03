@@ -2,27 +2,30 @@
 title: 游戏系统笔记
 tags: [gamesyslab, index]
 ---
-
 # 游戏系统笔记
 
-这里记录可复用模块的用法、接口与设计依据。阅读顺序：先用法，再按需要查接口和实验结果。
+先读使用指南，需要查具体参数时再进入脚本参考。
 
-## 开始使用
+## 使用模块
 
-- [[Guides/Events/角色事件通知|角色受伤后，怎样通知血条]]
-- [[Guides/Events/Unity中接入事件模块|Unity 里挂什么、引用怎么传、参数怎么调]]
-- [[Guides/Lifecycle/界面关闭时清理订阅|界面关闭时，如何停止监听]]
-- [[Guides/Timer/游戏中的延迟与倒计时|角色延迟复活、提示关闭和暂停倒计时]]
+- [[Guides/Events/角色事件通知|事件通知：角色受伤后刷新血条]]
+- [[Guides/Events/Unity中接入事件模块|事件通知：Unity 挂载与引用配置]]
+- [[Guides/Lifecycle/界面关闭时清理订阅|生命周期：界面关闭时停止监听]]
+- [[Guides/Timer/游戏中的延迟与倒计时|计时器：延迟复活与倒计时]]
+- [[Guides/Pooling/游戏中的实例复用|对象池：借出、归还和复用]]
+- [[Guides/Diagnostics/游戏中的日志记录|日志：记录消息与异常]]
 
-## 查询与设计
+## 按需查询
 
-- [[Reference/脚本索引|按模块查询脚本和方法]]
+- [[Reference/脚本索引|脚本与方法参考]]
 - [[Architecture/001_ModularArchitecture|Core 与可选模块]]
-- [[Architecture/002_游戏与关卡的服务归属|哪些对象跨关卡保留，哪些离场就清理]]
-- [[Experiments/001_CoreLifecycle|事件与生命周期的行为约定、测试和测量]]
+- [[Architecture/002_游戏与关卡的服务归属|游戏与关卡的资源归属]]
 
-当前可复用模块为 Events、Lifecycle、Timer；下一步为 Pooling。Timer 的契约和实际验证见 [[Experiments/002_Timer]]。笔记不提供演示脚本的成员说明或操作手册。
+## 能力边界
 
-## 写作模板
+- [[Experiments/001_CoreLifecycle|事件与生命周期]]
+- [[Experiments/002_Timer|计时器]]
+- [[Experiments/003_Pooling|对象池初版]]
+- [[Experiments/004_Diagnostics|独立日志]]
 
-[[Templates/ScriptReferenceTemplate|脚本说明]] · [[Templates/ModuleUsageTemplate|使用指南]] · [[Templates/ExperimentTemplate|实验记录]]
+演示操作放在仓库 Docs/Demos，未来模块地图放在 Docs/项目模块导览.md。

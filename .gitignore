@@ -78,3 +78,10 @@ Desktop.ini
 /TASK.md
 /task.md
 /GameSystemsLab_CODEX_GUIDE_CN.md
+
+# Local proposal review and one-off authoring helpers
+/Notes/SysNotes/Architecture/003_重构方案评审与研究路线.md
+/Tools/Pooling/CreateFolders.cs
+/Tools/Pooling/CreateMore.cs
+/Tools/Pooling/CreateDemo.cs
+/Tools/Diagnostics/CreateDemo.cs
